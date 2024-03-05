@@ -1,0 +1,12 @@
+.btn {
+  background: #C70000;
+  border-radius: 16px;
+  padding: 18px 48px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.btn:hover {
+  background: #840202;
+}/*# sourceMappingURL=button.css.map */

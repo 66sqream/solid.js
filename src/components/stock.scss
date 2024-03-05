@@ -1,0 +1,25 @@
+.stock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 33%;
+    img {
+        width: 100%;
+    }
+        h3 {
+            font-size: 16px;
+            font-weight: 500;
+        }
+}
+
+
+@media(max-width:900px){
+    .stock {
+        max-width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+

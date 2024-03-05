@@ -1,0 +1,15 @@
+.red {
+  background: none;
+  padding: 18px 48px;
+  border-radius: 16px;
+  border: 1px solid #C70000;
+  color: #C70000;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  font-weight: 700;
+}
+.red:hover {
+  border-radius: 16px;
+  border: 1px solid #840202;
+  color: #840202;
+}/*# sourceMappingURL=redbtn.css.map */

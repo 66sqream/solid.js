@@ -1,0 +1,44 @@
+.hed {
+    display: flex;
+    padding: 30px 142px;
+    justify-content: space-between;
+    align-items: center;
+        ul {
+            display: flex;
+            gap: 50px;
+                a{
+                   font-weight: 600;
+                   color: #1e1e1e;
+                }
+        }
+    p {
+        color: #1E1E1E;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:1150px) {
+    .hed {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hed ul {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+
+@media(max-width: 900px) {
+    .hed {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        ul, 
+        p {
+            display: none;
+        }
+    }
+   
+} 

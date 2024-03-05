@@ -1,0 +1,31 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: var(--white, #FFF);
+    padding: 28px 20px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10);
+    gap: 20px;
+        .grade {
+            display: flex;
+            justify-content: space-between;
+                .infa {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                        .name {
+                            font-weight: 500;
+                            font-size: 17px;
+                        }
+                }
+        }
+}
+
+
+@media(max-width:900px) {
+    .review .grade {
+        display: flex;
+        flex-direction: column;
+     
+    }
+}
